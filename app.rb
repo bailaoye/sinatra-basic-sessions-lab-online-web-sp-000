@@ -11,6 +11,6 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    puts params
+    puts session
   end
 end
