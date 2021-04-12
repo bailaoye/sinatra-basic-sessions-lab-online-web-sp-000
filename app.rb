@@ -6,5 +6,6 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
+    puts params
   end
 end
